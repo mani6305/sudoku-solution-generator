@@ -1,0 +1,68 @@
+body
+{
+ text-align: center;
+}
+
+h1{
+	color:#00aaff;
+	font-size: 50px;
+    font-family: sans-serif;
+	margin:auto; 
+}
+input{
+	margin:0px;
+	padding:0px; 
+	border-width:2px;
+	border-color: black;
+	width:50px;
+	height: 50px;
+	background-color: #a8d5de;
+	font-size: 40px;
+	text-align: center;
+
+}
+.i1
+{
+	border-right-width: 1px;
+	border-right-color: grey;
+    border-bottom-width:1px;
+     border-bottom-color: grey;
+}
+.i2
+{
+	border-left-width: 1px;
+	border-left-color: grey;
+    border-left-width:1px;
+     border-left-color: grey;
+}
+.i3
+{
+	border-right-width: 1px;
+	border-right-color: grey;
+    border-top-width:1px;
+     border-top-color: grey;
+}
+.i3
+{
+	border-left-width: 1px;
+	border-left-color: grey;
+    border-top-width:1px;
+     border-top-color: grey;
+}
+input:hover
+{
+  background-color: #deb51c;
+}
+.sudoku_box div div{
+	display:inline-block;
+	width:50px;
+	height: 50px;
+}
+.submit
+{
+	background-color:#5FFBF1 ;
+	border-color: #5FFBF1;
+	width:100px;
+	height: 40px;
+	border-radius: 10px;
+}
